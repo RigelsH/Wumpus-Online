@@ -1,0 +1,24 @@
+name: ailab2022
+channels:
+  - conda-forge
+  - ankurankan    # used for pgmpy
+  - pytorch
+  - nodefaults
+dependencies:
+  - python >=3.8,<3.11
+  - clingo =5.6.2
+  - gym <0.22
+  - ipywidgets
+  - jupyterlab =3.6.0
+  - jupyterlab-git
+  - jupytext
+  - matplotlib
+  - networkx
+  - opt_einsum>=3.3   # required by pgmpy but not specified in conda recipe
+  - pgmpy =0.1.21
+  - pytorch
+  - spacy
+  - pip
+  - pip:
+    - z3-solver
+    - wumpus @ git+https://gitlab.inf.unibz.it/tessaris/wumpus.git@main
