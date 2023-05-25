@@ -10,4 +10,4 @@ The required commands to make it work are the following:
 - conda create env -f environment.yml
 - jupyter lab
 
-Contributors: Artem Merinov & Rigels Hita
+Contributors: [Artem Merinov](https://github.com/artmerinov) & Rigels Hita
